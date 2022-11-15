@@ -3,10 +3,10 @@
 }
 
 header {
-    background-color: #7E846B;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 .titulo {
@@ -34,6 +34,7 @@ header {
     background-color: #20A4F3;
     height: 40px;
     font-weight: 300;
+    background-image: linear-gradient(to right, #BEC5AD, #5B5B5B);
 }
 
 #barra-navegacion li a {
@@ -43,27 +44,51 @@ header {
 }
 
 .inicio {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.inicio:hover {
+    transform: scale(1.2);
 }
 
 .tienda {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.tienda:hover {
+    transform: scale(1.2);
 }
 
 .personalizados {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.personalizados:hover {
+    transform: scale(1.2);
 }
 
 .tips {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.tips:hover {
+    transform: scale(1.2);
 }
 
 .nosotros {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.nosotros:hover {
+    transform: scale(1.2);
 }
 
 .contacto {
-    margin: 0px 5px;
+    margin: 0px 8px;
+}
+
+.contacto:hover {
+    transform: scale(1.2);
 }
 
 #imagen-inicio {
@@ -85,6 +110,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 .numero {
@@ -158,6 +184,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 #lista-personalizar {
@@ -216,6 +243,7 @@ header {
     margin-top: 20px;
     position: relative;
     top: 200px;
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 .titulo-tips {
@@ -317,6 +345,7 @@ header {
     margin-top: 20px;
     position: relative;
     top: 200px; 
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 #conocenos {
@@ -345,6 +374,7 @@ header {
     margin-top: 20px;
     position: relative;
     top: 100px; 
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
 
 .titulo-contacto {
@@ -424,4 +454,5 @@ header {
     margin-top: 20px;
     position: relative;
     top: 180px; 
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
 }
