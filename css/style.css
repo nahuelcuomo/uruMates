@@ -473,6 +473,11 @@ header {
     border-color: black;
 }
 
+.enviar:hover {
+    transform: scale(1.09);
+    background-color:#BEC5AD;
+}
+
 #footer-contacto {
     background-color: #7E846B;
     display: flex;
