@@ -35,63 +35,80 @@ header {
     align-items: center;
     list-style-type: none;
     font-size: 20px;
-    background-color: #20A4F3;
+    background-color: #5B5B5B;
     height: 40px;
     font-weight: 300;
-    background-image: linear-gradient(to right, #BEC5AD, #5B5B5B);
+    /*background-image: linear-gradient(to right, #BEC5AD, #5B5B5B);*/
 }
 
 #barra-navegacion li a {
     text-decoration: none;
     color:black;
+    transition: color 0.4s ease;
+}
+
+#barra-navegacion li a:hover {
+    color:#B1F8F2;
 }
 
 .inicio {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .inicio:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 .tienda {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .tienda:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 .personalizados {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .personalizados:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 .tips {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .tips:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 .nosotros {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .nosotros:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 .contacto {
     margin: 0px 8px;
+    transition: all 0.4s ease;
 }
 
 .contacto:hover {
     transform: scale(1.2);
+    transition: all 0.4s ease;
 }
 
 #imagen-inicio {
@@ -136,55 +153,67 @@ header {
 #primer-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #primer-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 #segundo-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #segundo-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 #tercer-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #tercer-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 #cuarto-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #cuarto-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 #quinto-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #quinto-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 #sexto-articulo {
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease;
 }
 
 #sexto-articulo:hover {
     transform: scale(1.08);
+    transition: all 0.4s ease;
 }
 
 .imagen-articulo {
@@ -471,11 +500,13 @@ header {
     width: 80px;
     height: 30px;
     border-color: black;
+    transition: all 0.4s ease;
 }
 
 .enviar:hover {
     transform: scale(1.09);
     background-color:#BEC5AD;
+    transition: all 0.4s ease;
 }
 
 #footer-contacto {
