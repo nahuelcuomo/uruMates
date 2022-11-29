@@ -1,0 +1,72 @@
+#footer-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:dimgray;
+}
+
+.numero {
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+    color: black;
+}
+
+.mail {
+    font-size: 15px;
+    margin: 0 0 15px 0;
+    color: black;
+}
+
+
+
+#footer-tienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:dimgray;
+}
+
+
+#footer-personalizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    top: 200px;
+    background-color:dimgray;
+}
+
+
+
+#footer-tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    top: 200px; 
+    background-color:dimgray;
+}
+
+#footer-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    top: 100px; 
+    background-color:dimgray;
+}
+
+#footer-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    top: 180px; 
+    background-color:dimgray;
+}

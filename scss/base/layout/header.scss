@@ -1,0 +1,74 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
+}
+
+nav {
+    background-color:dimgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+    &:hover {
+        color:#B1F8F2;
+    }
+}
+
+.inicio {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
+
+.tienda {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
+
+.personalizados {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
+
+.tips {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
+
+.nosotros {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
+
+.contacto {
+    margin: 0px 8px;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.4s ease;
+    }
+}
