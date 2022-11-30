@@ -3,19 +3,19 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 .numero {
     font-size: 15px;
     margin: 15px 0px 0px 0px;
-    color: black;
+    color: $color_letras;
 }
 
 .mail {
     font-size: 15px;
     margin: 0 0 15px 0;
-    color: black;
+    color: $color_letras;
 }
 
 
@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 
@@ -36,7 +36,7 @@
     margin-top: 20px;
     position: relative;
     top: 200px;
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 
@@ -48,7 +48,7 @@
     margin-top: 20px;
     position: relative;
     top: 200px; 
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 #footer-nosotros {
@@ -58,7 +58,7 @@
     margin-top: 20px;
     position: relative;
     top: 100px; 
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 #footer-contacto {
@@ -68,5 +68,5 @@
     margin-top: 20px;
     position: relative;
     top: 180px; 
-    background-color:dimgray;
+    background-color: $color_primario;
 }

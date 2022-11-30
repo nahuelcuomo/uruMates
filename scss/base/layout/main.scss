@@ -80,18 +80,6 @@
     margin: 25px
 }
 
-/*.titulo-articulo {
-    position: relative;
-    bottom: 25px;
-    font-size: 20px;
-}
-
-.parrafo-articulo {
-    position: relative;
-    bottom: 40px;
-    font-size: 15px;
-}*/
-
 //PERSONALIZAR-------------------------------------------------------------------------------------------------------------
 
 #lista-personalizar {
@@ -270,7 +258,7 @@
             margin-left: 25px;
             margin-bottom: 10px;
             padding: 20px;
-            border-color: black;
+            border-color: $color_bordes;
         }
         
         .celular {
@@ -279,7 +267,7 @@
             margin-left: 25px;
             margin-bottom: 10px;
             padding: 20px;
-            border-color: black;
+            border-color: $color_bordes;
         }
         
         .email {
@@ -288,7 +276,7 @@
             margin-left: 25px;
             margin-bottom: 10px;
             padding: 20px;
-            border-color: black;
+            border-color: $color_bordes;
         }
         
     }
@@ -298,7 +286,7 @@
         left: 150px;
         width: 300px;
         height: 150px;
-        border-color: black;
+        border-color: $color_bordes;
     }
     
 }
@@ -309,11 +297,11 @@
     left: 145px;
     width: 80px;
     height: 30px;
-    border-color: black;
+    border-color: $color_bordes;
     transition: all 0.4s ease;
     &:hover {
         transform: scale(1.09);
-        background-color:#BEC5AD;
+        background-color: $color_transiciones_botones;
         transition: all 0.4s ease;
     }
 }

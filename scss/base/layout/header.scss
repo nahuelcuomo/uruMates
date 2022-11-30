@@ -3,19 +3,23 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #BACDB0, #87BFFF);
+    background-image: radial-gradient($color_secundario, $color_terciario);
+}
+
+.titulo {
+    font-size: 60px;
 }
 
 nav {
-    background-color:dimgray;
+    background-color: $color_primario;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: $color_letras;
     transition: color 0.4s ease;
     &:hover {
-        color:#B1F8F2;
+        color: $color_transiciones_botones;
     }
 }
 

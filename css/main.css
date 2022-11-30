@@ -3,10 +3,13 @@
   font-family: 'Open Sans', sans-serif; }
 
 body {
-  background-image: linear-gradient(to right, #BACDB0, #87BFFF); }
+  background-image: radial-gradient(#9C9990, #9EBC9E); }
+
+.titulo {
+  font-size: 60px; }
 
 nav {
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 a {
   text-decoration: none;
@@ -119,17 +122,6 @@ a {
   height: 350px;
   margin: 25px; }
 
-/*.titulo-articulo {
-    position: relative;
-    bottom: 25px;
-    font-size: 20px;
-}
-
-.parrafo-articulo {
-    position: relative;
-    bottom: 40px;
-    font-size: 15px;
-}*/
 #lista-personalizar {
   position: relative;
   top: 70px; }
@@ -303,7 +295,7 @@ a {
   transition: all 0.4s ease; }
   .enviar:hover {
     transform: scale(1.09);
-    background-color: #BEC5AD;
+    background-color: #B1F8F2;
     transition: all 0.4s ease; }
 
 #footer-inicio {
@@ -311,7 +303,7 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 .numero {
   font-size: 15px;
@@ -328,7 +320,7 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 #footer-personalizar {
   display: flex;
@@ -337,7 +329,7 @@ a {
   margin-top: 20px;
   position: relative;
   top: 200px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 #footer-tips {
   display: flex;
@@ -346,7 +338,7 @@ a {
   margin-top: 20px;
   position: relative;
   top: 200px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 #footer-nosotros {
   display: flex;
@@ -355,7 +347,7 @@ a {
   margin-top: 20px;
   position: relative;
   top: 100px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
 
 #footer-contacto {
   display: flex;
@@ -364,4 +356,4 @@ a {
   margin-top: 20px;
   position: relative;
   top: 180px;
-  background-color: dimgray; }
+  background-color: #7A89C2; }
